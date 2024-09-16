@@ -1,0 +1,316 @@
+/* Mobile Devices */
+@media only screen and (max-width: 767px) {
+    /* CSS rules for small screens and mobile devices */
+    nav{
+        display: block;
+    }
+    header{
+        display:none;
+    }
+    .amz_logo{
+        background-image: url("amazon_logo.png");
+        background-size:cover;
+        height:50px;
+        width:110px;
+    }
+    .header-sec1{
+        background-color: #222f3d;
+        color: #fff;
+    }
+    .header-sec1-a{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-sec1-a-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-sec1-a-1 i{
+        padding:20px;
+        font-size: 1.5rem;
+    }
+    .header-sec1-a-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-sec1-a-2 p{
+        padding: 5px;
+    }
+    .header-sec1-a-2 i{
+        padding: 5px;
+        font-size: 1.5rem;
+    }  
+    .cart{
+        margin-right: 10px;
+    }
+    .header-sec1-b{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-serach{
+        width:400px;
+    }
+    .header-sec1-c ul{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        list-style: none;
+        padding: 5px;
+        overflow-x: scroll;
+        margin-top: 20px;
+    }
+    .header-sec1-c ul li{
+        height: 30px;
+    }
+    .header-sec2{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 10px;
+        background: #37475A;
+        color: #fff;
+    }
+    .hero-sec{
+        background-image: url("hero_image1.jpg");
+        background-size: cover;
+        height:350px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .hero-msg{
+        display: none;
+    }
+    .box{
+        height: 180px;
+        width: 180px;
+        background: white;
+        border-radius: 2%;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    height: 180px;
+    border-radius: 4px;
+    float: left;
+    margin: 0 20px 0 0;
+    box-shadow: 0 2px 5px rgba(15, 17, 17, .15);
+    overflow: hidden;
+    background-color: #fff;
+    min-width: 125px;
+    max-width: 225px;
+    }
+    .box-container{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+        background: #222f3d;
+        margin: 20px;
+        color: #fff;
+    }
+    .box-container p a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .box-container p a:hover{
+        text-decoration: underline;
+    }
+    .box p
+    {
+        padding: 10px;
+    }
+    .box1{
+        width: 100%;
+    }
+    .foot-pannel2{
+        display: grid;
+        padding-bottom: 10px;
+        overflow: auto;
+    }
+}
+  
+  /* Tablets and Small Laptops */
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    /* CSS rules for tablets and small laptops */
+    header{
+        display:none;
+    }
+    .amz_logo{
+        background-image: url("amazon_logo.png");
+        background-size:cover;
+        height:50px;
+        width:110px;
+    }
+    .header-sec1{
+        background-color: #222f3d;
+        color: #fff;
+    }
+    .header-sec1-a{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-sec1-a-1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-sec1-a-2{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .header-sec1-a-2 p{
+        padding: 10px;
+    }
+    .header-sec1-a-2 i{
+        padding-left: 20px;
+        font-size: 1.5rem;
+    }
+    .cart{
+        margin-right: 10px;
+    }
+    .header-sec1-b{
+        display: flex;
+        justify-content: center;
+    }
+    .nav-serach{
+        width:400px;
+    }
+    .header-sec1-c ul{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        list-style: none;
+        padding: 5px;
+        overflow-y: scroll;
+        scrollbar-color: #222f3d  #222f3d;
+        margin-top: 10px;
+    }
+    .header-sec1-c ul li{
+        height: 20px;
+    }
+    .header-sec2{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        gap: 0.5rem;
+        padding: 10px;
+        background: #37475A;
+        color: #fff;
+    }
+    .hero-sec{
+        background-image: url("hero_image1.jpg");
+        background-size: cover;
+        height:350px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .hero-msg{
+        display: none;
+    }
+    .box{
+        height: 180px;
+        width: 180px;
+        background: white;
+        border-radius: 2%;
+        position: relative;
+        height: 180px;
+        border-radius: 4px;
+        float: left;
+        margin: 0 20px 0 0;
+        box-shadow: 0 2px 5px rgba(15, 17, 17, .15);
+        overflow: hidden;
+        background-color: #fff;
+        min-width: 125px;
+        max-width: 225px;
+    }
+    .box p{
+        padding: 10px;
+    }
+    .box-container{
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 40px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 1rem;
+        background: #222f3d;
+        margin: 20px;
+        color: #fff;
+    
+    }
+    .box1{
+        width: 50%;
+    }
+    .foot-pannel2{
+        display: grid;
+        padding-bottom: 10px;
+        overflow: auto;
+    }
+    .box-container p a{
+        text-decoration: none;
+        color: #fff;
+    }
+    .box-container p a:hover{
+        text-decoration: underline;
+    }
+}
+  /* Medium-sized Laptops and Desktops */
+  @media only screen and (min-width: 992px) and (max-width: 1199px) {
+    /* CSS rules for medium-sized laptops and desktops */
+    nav{
+        display: none;
+    }
+    .box-container{
+        display: none;
+    }
+    .nav-serach{
+        width: 400px;
+    }
+    .box1{
+        width: 30%;
+    }
+  }
+  
+  /* Large Laptops and Desktops */
+  @media only screen and (min-width: 1200px) {
+    /* CSS rules for large laptops and desktops */
+    nav{
+        display: none;
+    }
+    .box-container{
+        display: none;
+    }
+  }
+  
+  /* Landscape Viewports */
+  @media only screen and (orientation: landscape) {
+    /* CSS rules for landscape orientation */
+  }
+  
+  /* Portrait Viewports */
+  @media only screen and (orientation: portrait) {
+    /* CSS rules for portrait orientation */
+  }
+  
+  /* High-resolution Displays (Retina) */
+  @media only screen and (-webkit-min-device-pixel-ratio: 2),
+         only screen and (min--moz-device-pixel-ratio: 2),
+         only screen and (-o-min-device-pixel-ratio: 2/1),
+         only screen and (min-device-pixel-ratio: 2),
+         only screen and (min-resolution: 192dpi),
+         only screen and (min-resolution: 2dppx) {
+    /* CSS rules for high-resolution displays */
+  }
